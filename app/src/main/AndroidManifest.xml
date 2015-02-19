@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="shrotes.tyrdevs.com.shrotes" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LauncherActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".some"
+            android:label="@string/title_activity_some" >
+        </activity>
+        <activity
+            android:name="shrotes.tyrdevs.com.shrotes.QrCode"
+            android:label="@string/title_activity_some" >
+        </activity>
+        <activity
+            android:name="shrotes.tyrdevs.com.shrotes.QrScanner"
+            android:label="@string/title_activity_some" >
+        </activity>
+        <activity
+            android:name="shrotes.tyrdevs.com.shrotes.LoginActivity"
+            android:label="@string/title_activity_some" >
+        </activity>
+        <activity
+            android:name="shrotes.tyrdevs.com.shrotes.EditSubjectName"
+            android:label="@string/title_activity_some" >
+        </activity>
+        <activity
+            android:name="shrotes.tyrdevs.com.shrotes.EditTimeTable"
+            android:label="@string/title_activity_some" >
+        </activity>
+        <activity
+            android:name="shrotes.tyrdevs.com.shrotes.RegistrationActivity"
+            android:label="@string/title_activity_some" >
+        </activity>
+        <activity
+            android:name="shrotes.tyrdevs.com.shrotes.WorkingActivity"
+            android:label="@string/title_activity_some" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,142 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context="shrotes.tyrdevs.com.shrotes.RegistrationActivity">
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView"
+    android:layout_gravity="center_horizontal" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:id="@+id/editText" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="textPersonName"
+            android:textColor="@color/Black"
+            android:ems="10"
+            android:padding="10dp"
+            android:id="@+id/editTextName"
+            android:background="@color/white"
+            android:hint="Name"
+            android:layout_gravity="center_horizontal" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/Black"
+            android:padding="10dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:id="@+id/editTextClassGroup"
+            android:layout_gravity="center_horizontal"
+            android:hint="Class group" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_gravity="center_horizontal" />
+
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            android:textColor="@color/Black"
+            android:background="@color/white"
+            android:ems="10"
+            android:padding="10dp"
+            android:id="@+id/editTextPassword"
+            android:layout_gravity="center_horizontal"
+            android:hint="password" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:padding="10dp"
+            android:textColor="@color/Black"
+            android:inputType="textPassword"
+            android:background="@color/white"
+            android:id="@+id/editTextPasswordReEnter"
+            android:layout_gravity="center_horizontal"
+            android:hint="re-enter password" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="5"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/selected"
+                android:textColor="@color/white"
+                android:text="Reset"
+                android:layout_weight="2"
+                android:id="@+id/buttonRegistrationActivityReset" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/selected"
+                android:textColor="@color/white"
+                android:padding="10dp"
+                android:text="Sign Up"
+                android:layout_weight="2"
+                android:id="@+id/buttonRegisterRegistrationActivity"
+                android:layout_gravity="end"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>
